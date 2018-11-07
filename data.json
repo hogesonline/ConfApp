@@ -4,9 +4,9 @@
       {
         "sessionNum": "1",
         "type": "plenary",
-        "time": "8:45AM",
-        "id": "1",
-        "photo": "https://placekitten.com/g/200/200",
+        "time": "2019-03-16T08:45:00+11:00",
+        "endTime": "2019-03-16T09:00:00+11:00",
+        "photo": "https://picsum.photos/50/?random",
         "title": "Welcome",
         "desc": "",
         "firstName": "President",
@@ -15,67 +15,68 @@
       {
         "sessionNum": "2",
         "type": "plenary",
-        "time": "9:00AM",
-        "photo": "https://placekitten.com/g/200/200",
+        "time": "2019-03-16T09:00:00+11:00",
+        "endTime": "2019-03-16T09:45:00+11:00",
+        "photo": "https://picsum.photos/50/?random",
         "title": "Keynote 1",
-        "desc": "1 sentence about this long",
+        "desc": "1 sentence not a lot longer than this",
         "firstName": "Fname1",
         "lastName": "Lname1"
       },
       {
         "sessionNum": "3",
         "type": "plenary",
-        "time": "9:45AM",
-        "photo": "https://placekitten.com/g/200/200",
+        "time": "2019-03-16T09:45:00+11:00",
+        "endTime": "2019-03-16T10:30:00+11:00",
+        "photo": "https://picsum.photos/50/?random",
         "title": "Keynote 2",
-        "desc": "1 sentence about this long",
+        "desc": "1 sentence not a lot longer than this",
         "firstName": "Fname2",
         "lastName": "Lname2"
       },
       {
         "sessionNum": "4",
         "type": "break",
-        "time": "10:30AM",
+        "time": "2019-03-16T10:30:00+11:00",
+        "endTime": "2019-03-16T11:00:00+11:00",
         "title": "Morning Tea"
       },
       {
         "sessionNum": "5",
         "type": "stream",
-        "time": "11:00AM",
+        "streamNum": "1",
+        "time": "2019-03-16T11:00:00+11:00",
+        "endTime": "2019-03-16T11:45:00+11:00",
         "streams": [
           {
             "streamid": "101",
-            "theme": "ICT stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Primary",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "102",
-            "theme": "Digital Technology stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Digi Tech",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "103",
-            "theme": "STEM stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "STEM",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "104",
-            "theme": "Senior stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Senior",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           }
@@ -84,41 +85,39 @@
       {
         "sessionNum": "6",
         "type": "stream",
-        "time": "11:45AM",
+        "streamNum": "2",
+        "time": "2019-03-16T11:45:00+11:00",
+        "endTime": "2019-03-16T12:30:00+11:00",
         "streams": [
           {
             "streamid": "201",
-            "theme": "ICT stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Primary",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "202",
-            "theme": "Digital Technology stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Digi Tech",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "203",
-            "theme": "STEM stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "STEM",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "204",
-            "theme": "Senior stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Senior",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           }
@@ -127,47 +126,46 @@
       {
         "sessionNum": "7",
         "type": "break",
-        "time": "12:30PM",
+        "time": "2019-03-16T12:30:00+11:00",
+        "endTime": "2019-03-16T13:30:00+11:00",
         "title": "Lunch"
       },
       {
         "sessionNum": "8",
         "type": "stream",
-        "time": "1:30PM",
+        "streamNum": "3",
+        "time": "2019-03-16T13:30:00+11:00",
+        "endTime": "2019-03-16T14:15:00+11:00",
         "streams": [
           {
             "streamid": "301",
-            "theme": "ICT stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Primary",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "302",
-            "theme": "Digital Technology stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Digi Tech",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this except for this bit here",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "303",
-            "theme": "AGM stuff",
-            "photo": "https://placekitten.com/g/200/200",
-            "title": "title of talk",
-            "desc": "1 sentence about this long",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "theme": "AGM",
+            "title": "A G M",
+            "desc": "Discuss the direction for ICTENSW and vote for the new board",
+            "firstName": "All",
+            "lastName": "Welcome"
           },
           {
             "streamid": "304",
-            "theme": "Senior stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Senior",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           }
@@ -176,84 +174,39 @@
       {
         "sessionNum": "9",
         "type": "stream",
-        "time": "2:15PM",
+        "streamNum": "4",
+        "time": "2019-03-16T14:15:00+11:00",
+        "endTime": "2019-03-16T15:00:00+11:00",
         "streams": [
           {
             "streamid": "401",
-            "theme": "ICT stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Primary",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "402",
-            "theme": "Digital Technology stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Digi Tech",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "403",
-            "theme": "STEM stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "STEM",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           },
           {
             "streamid": "404",
-            "theme": "Senior stuff",
-            "photo": "https://placekitten.com/g/200/200",
+            "theme": "Senior",
             "title": "title of talk",
-            "desc": "1 sentence about this long",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
-          }
-        ]
-      },
-      {
-        "sessionNum": "9",
-        "type": "stream",
-        "time": "3:00PM",
-        "streams": [
-          {
-            "streamid": "501",
-            "theme": "ICT stuff",
-            "photo": "https://placekitten.com/g/200/200",
-            "title": "title of talk",
-            "desc": "1 sentence about this long",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
-          },
-          {
-            "streamid": "502",
-            "theme": "Digital Technology stuff",
-            "photo": "https://placekitten.com/g/200/200",
-            "title": "title of talk",
-            "desc": "1 sentence about this long",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
-          },
-          {
-            "streamid": "503",
-            "theme": "STEM stuff",
-            "photo": "https://placekitten.com/g/200/200",
-            "title": "title of talk",
-            "desc": "1 sentence about this long",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
-          },
-          {
-            "streamid": "504",
-            "theme": "Senior stuff",
-            "photo": "https://placekitten.com/g/200/200",
-            "title": "title of talk",
-            "desc": "1 sentence about this long",
+            "desc": "1 sentence not a lot longer than this",
             "firstName": "Fname2",
             "lastName": "Lname2"
           }
@@ -261,31 +214,76 @@
       },
       {
         "sessionNum": "10",
-        "type": "break",
-        "time": "3:45PM",
-        "title": "Afternoon Tea"
+        "type": "stream",
+        "streamNum": "5",
+        "time": "2019-03-16T15:00:00+11:00",
+        "endTime": "2019-03-16T15:45:00+11:00",
+        "streams": [
+          {
+            "streamid": "501",
+            "theme": "Primary",
+            "title": "title of talk",
+            "desc": "1 sentence not a lot longer than this",
+            "firstName": "Fname2",
+            "lastName": "Lname2"
+          },
+          {
+            "streamid": "502",
+            "theme": "Digi Tech",
+            "title": "title of talk",
+            "desc": "1 sentence not a lot longer than this",
+            "firstName": "Fname2",
+            "lastName": "Lname2"
+          },
+          {
+            "streamid": "503",
+            "theme": "STEM",
+            "title": "title of talk",
+            "desc": "1 sentence not a lot longer than this",
+            "firstName": "Fname2",
+            "lastName": "Lname2"
+          },
+          {
+            "streamid": "504",
+            "theme": "Senior",
+            "title": "title of talk",
+            "desc": "1 sentence not a lot longer than this",
+            "firstName": "Fname2",
+            "lastName": "Lname2"
+          }
+        ]
       },
       {
         "sessionNum": "11",
+        "type": "break",
+        "time": "2019-03-16T15:45:00+11:00",
+        "endTime": "2019-03-16T16:15+11:00",
+        "title": "Afternoon Tea"
+      },
+      {
+        "sessionNum": "12",
         "type": "plenary",
-        "time": "4:15PM",
-        "photo": "https://placekitten.com/g/200/200",
+        "time": "2019-03-16T16:15+11:00",
+        "endTime": "2019-03-16T17:00+11:00",
+        "photo": "https://picsum.photos/50/?random",
         "title": "Keynote 3",
-        "desc": "1 sentence about this long",
+        "desc": "1 sentence not a lot longer than this",
         "firstName": "Fname1",
         "lastName": "Lname1"
       },
       {
-        "sessionNum": "12",
+        "sessionNum": "14",
         "type": "break",
-        "time": "5:00PM",
+        "time": "2019-03-16T17:00+11:00",
+        "endTime": "2019-03-16T17:30+11:00",
         "title": "Conference Close"
       },
       {
-        "sessionNum": "13",
+        "sessionNum": "15",
         "type": "break",
-        "time": "6:30PM",
-        "title": "Conference Dinner"
+        "time": "2019-03-16T17:30+11:00",
+        "endTime": "2019-03-16T22:00+11:00",
+        "title": "Dinner"
       }
     ]
   }

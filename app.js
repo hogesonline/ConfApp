@@ -1,17 +1,7 @@
-const apiKey = 'c70671e75a7346b4be8cc3d3effa3d88';
 const main = document.querySelector('main');
-const sourceSelector = document.querySelector('#sourceSelector');
-const defaultSource = 'abc-news-au'
 
 window.addEventListener('load', async e => {
-    updateNews();
-    await updateSources();
-    sourceSelector.value = defaultSource;
-
-    sourceSelector.addEventListener('change', e => {
-        updateNews(e.target.value);
-    });
-
+    buildSchedule();
     
     if('serviceWorker' in navigator){
         try {
@@ -23,30 +13,78 @@ window.addEventListener('load', async e => {
     }
 });
 
-async function updateSources() {
-    const res  = await fetch(`http://newsapi.org/v1/sources`);
+async function buildSchedule() {
+    const res  = await fetch(`data.json`);
     const json = await res.json();
 
-    sourceSelector.innerHTML = json.sources.map(src => `<option value="${src.id}">${src.name}</option>`).join("/n");
+
+
+    main.innerHTML = json.schedule.sessions.map(createSession).join('\n');
 }
 
-async function updateNews(source = defaultSource) {
-    const res  = await fetch(`https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apiKey}`);
-    const json = await res.json();
-
-    main.innerHTML = json.articles.map(createArticle).join('\n');
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
 }
 
+function createSession(session){
+    let time = new Date(session.time);
+    let endTime = new Date(session.endTime);
 
+    start = `${time.getHours()}:${addZero(time.getMinutes())}`
+    end = `${endTime.getHours()}:${addZero(endTime.getMinutes())}`
 
-function createArticle(article){
-    return `
-    <div class="article">
-        <a href = "${article.url}">
-            <h2>${article.title}</h2>
-            <img src="${article.urlToImage}">
-            <p>${article.description}</p>
-        </a>
+    if (session.type == "break") {
+        return `
+        <div class="article" id="break">
+            <div id="banner">
+                <h3>${start}</h3>
+                <h2>${session.title}</h2>
+            </div>
+        </div>
+        `;
+    }
+    else if(session.type == "stream"){
+        let streams = session.streams.map(createStream).join('\n')
+        return `
+        <div class="article">
+            <div id="banner">
+                <h3>${start}</h3>
+                <h2>Session ${session.streamNum}</h2>
+            </div>
+            <div class="streams">
+                ${streams}
+            </div>
+        </div>
+        `
+    }
+    else {
+        return `
+        <div class="article">
+            <div id="banner">
+                <h3>${start}</h3>
+                <h2>${session.title}</h2>
+                <img src="${session.photo}">
+            </div>
+            <H4>${session.firstName}  ${session.lastName} </h4>
+            <p>${session.desc}</p>
+        </div>
+        `;
+    }
+
+    
+    }
+
+function createStream(stream) {
+    return  `
+    <div id="${stream.theme.replace(' ','').toLowerCase()}">
+        <h5>${stream.theme}</h5>
+        <h5>${stream.title}</h5>
+        <H6>${stream.firstName}  ${stream.lastName} </h4>
+        <p>${stream.desc}</p>
     </div>
     `;
 }
+
