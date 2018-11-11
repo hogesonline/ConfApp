@@ -13,6 +13,14 @@ window.addEventListener('load', async e => {
     }
 });
 
+
+//Manage the personal schedule
+function starSelect() {
+    var element = document.getElementById("star");
+    element.classList.toggle("checked");
+}
+
+//Deal with data and build the pages
 async function buildSchedule() {
     const res  = await fetch(`data.json`);
     const json = await res.json();
@@ -66,10 +74,14 @@ function createSession(session){
             <div id="banner">
                 <h3>${start}</h3>
                 <h2>${session.title}</h2>
-                <img src="${session.photo}">
+                <span class="fa fa-star checked"></span>
             </div>
+            <div id="detail">
+            <img src="${session.photo}">
             <H4>${session.firstName}  ${session.lastName} </h4>
+            
             <p>${session.desc}</p>
+            </div>
         </div>
         `;
     }
@@ -78,13 +90,21 @@ function createSession(session){
     }
 
 function createStream(stream) {
+    let speakers = stream.speakers.map(createSpeaker).join('\n')
     return  `
     <div id="${stream.theme.replace(' ','').toLowerCase()}">
-        <h5>${stream.theme}</h5>
-        <h5>${stream.title}</h5>
-        <H6>${stream.firstName}  ${stream.lastName} </h4>
+        <span id="star" class="fa fa-star" onclick="starSelect()"></span>
+        <h5 class="stream">${stream.theme}</h5>
+        <h5 class="title">${stream.title}</h5>
+        ${speakers}
         <p>${stream.desc}</p>
     </div>
     `;
+}
+
+function createSpeaker(speaker) {
+    return `
+    <h6>${speaker.firstName} ${speaker.lastName}</h6>
+    `
 }
 

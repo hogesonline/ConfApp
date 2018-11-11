@@ -6,33 +6,36 @@
         "type": "plenary",
         "time": "2019-03-16T08:45:00+11:00",
         "endTime": "2019-03-16T09:00:00+11:00",
-        "photo": "https://picsum.photos/50/?random",
+        "photo": "/images/person.png",
         "title": "Welcome",
         "desc": "",
+        "room": "Rm1",
         "firstName": "President",
-        "lastName": "Last name"
+        "lastName": "Last name"   
       },
       {
         "sessionNum": "2",
         "type": "plenary",
         "time": "2019-03-16T09:00:00+11:00",
         "endTime": "2019-03-16T09:45:00+11:00",
-        "photo": "https://picsum.photos/50/?random",
+        "photo": "/images/person.png",
         "title": "Keynote 1",
         "desc": "1 sentence not a lot longer than this",
+        "room": "Rm1",
         "firstName": "Fname1",
-        "lastName": "Lname1"
+        "lastName": "Lname1"      
       },
       {
         "sessionNum": "3",
         "type": "plenary",
         "time": "2019-03-16T09:45:00+11:00",
         "endTime": "2019-03-16T10:30:00+11:00",
-        "photo": "https://picsum.photos/50/?random",
+        "photo": "/images/person.png",
         "title": "Keynote 2",
         "desc": "1 sentence not a lot longer than this",
-        "firstName": "Fname2",
-        "lastName": "Lname2"
+        "room": "Rm1",
+        "firstName": "Fname1",
+        "lastName": "Lname1"
       },
       {
         "sessionNum": "4",
@@ -53,32 +56,40 @@
             "theme": "Primary",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
-          },
+            "room": "Rm1",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
+              },
           {
             "streamid": "102",
             "theme": "Digi Tech",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm2",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "103",
             "theme": "STEM",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm3",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "104",
             "theme": "Senior",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm4",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           }
         ]
       },
@@ -94,32 +105,40 @@
             "theme": "Primary",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm1",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "202",
             "theme": "Digi Tech",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm2",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "203",
             "theme": "STEM",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm3",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "204",
             "theme": "Senior",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm4",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           }
         ]
       },
@@ -142,32 +161,40 @@
             "theme": "Primary",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm1",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "302",
             "theme": "Digi Tech",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this except for this bit here",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm2",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "303",
             "theme": "AGM",
-            "title": "A G M",
+            "title": "",
             "desc": "Discuss the direction for ICTENSW and vote for the new board",
+            "room": "Rm3",
+            "speakers":[{
             "firstName": "All",
-            "lastName": "Welcome"
+            "lastName": "Welcome"}]
           },
           {
             "streamid": "304",
             "theme": "Senior",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm4",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           }
         ]
       },
@@ -183,32 +210,40 @@
             "theme": "Primary",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm1",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "402",
             "theme": "Digi Tech",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm2",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "403",
             "theme": "STEM",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm3",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "404",
             "theme": "Senior",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm4",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           }
         ]
       },
@@ -224,32 +259,40 @@
             "theme": "Primary",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm1",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "502",
             "theme": "Digi Tech",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm2",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "503",
             "theme": "STEM",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm3",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           },
           {
             "streamid": "504",
             "theme": "Senior",
             "title": "title of talk",
             "desc": "1 sentence not a lot longer than this",
-            "firstName": "Fname2",
-            "lastName": "Lname2"
+            "room": "Rm4",
+            "speakers":[{
+            "firstName": "Fname1",
+            "lastName": "Lname1"}]
           }
         ]
       },
@@ -265,9 +308,10 @@
         "type": "plenary",
         "time": "2019-03-16T16:15+11:00",
         "endTime": "2019-03-16T17:00+11:00",
-        "photo": "https://picsum.photos/50/?random",
+        "photo": "/images/person.png",
         "title": "Keynote 3",
         "desc": "1 sentence not a lot longer than this",
+        "room": "Rm1",
         "firstName": "Fname1",
         "lastName": "Lname1"
       },
