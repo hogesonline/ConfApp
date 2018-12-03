@@ -18,6 +18,8 @@ window.addEventListener('load', async e => {
 function starSelect() {
     var element = document.getElementById("star");
     element.classList.toggle("checked");
+    // get the session id from the star toggle
+    //add that session to personal schedule
 }
 
 //Deal with data and build the pages
