@@ -1,0 +1,39 @@
+<nav class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="day1.html">Day 1</a>
+    <a href="day2.html">Day 2</a>
+    <a href="#Your_Schedule">Your Schedule</a>
+    <a href="javascript:void(0);" class="icon" onclick="NavigateFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</nav>
+   
+<!-- make the current class active -->
+<!-- credit: https://foundation.zurb.com/forum/posts/42363-add-active-class-to-nav-dependent-on-page -->
+<script>
+    !function(){
+        var href = location.href;
+        var pgurl = href.substr(href.lastIndexOf('/') + 1);
+        // match all the anchors on the page with the html file name
+        $('a[href="' + pgurl + '"]').addClass('active');
+    }();
+</script>
+<!-- Side note:
+The exclamation mark before the function and () at the end 
+makes it an instantly called function. See:
+https://stackoverflow.com/questions/3755606/what-does-the-exclamation-mark-do-before-the-function
+- You have tried to see if this will make the nav bar load first, it didn't.
+-->
+
+<script>
+  function NavigateFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+
+
+  }
+  </script>

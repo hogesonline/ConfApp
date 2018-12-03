@@ -1,0 +1,31 @@
+{
+    "homePage":{
+        "speakers":[
+            {
+              "firstName": "firstSpeaker",
+              "lastName": "Mc firstSpeaker",
+              "bio50":"Lorem ipsum dolor sit amet, ad tota quaerendum per, duo debitis volumus at, ad regione voluptua quo. Mel eripuit erroribus in, eum no dicunt signiferumque. Ut integre incorrupte cum, sed at harum oratio laboramus. Nam et liber volutpat. Eum sententiae reprimique theophrastus et, tollit mucius accumsan ei cum. Mel integre.",
+              "image": "../ConfApp-master/images/person.png"
+            },
+            {
+            "firstName": "secondSpeaker",
+            "lastName": "Mc secondSpeaker",
+            "bio50": "lorem ipsum dolor test test test test how long can this sentence be before it is too long?",
+            "image": "../ConfApp-master/images/person.png" 
+            },
+            {
+            "firstName": "thirdSpeaker",
+            "lastName": "Mc thirdSpeaker",
+            "bio50": "lorem ipsum dolor test test test test",
+            "image": "../ConfApp-master/images/person.png"    
+            }
+        ],
+        "sponsors":[
+            {
+            "logo":"xx",
+            "sponsorGrade":"yy"
+
+            }
+        ]
+    }
+}
